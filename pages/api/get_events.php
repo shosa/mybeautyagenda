@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php'; // Assumi che questo file contenga la configurazione del database
+require_once '../../config.php'; // Assumi che questo file contenga la configurazione del database
 
 try {
     // Connessione al database

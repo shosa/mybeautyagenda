@@ -1,7 +1,7 @@
 <?php
 // Carica l'autoloader di Composer
 require __DIR__ . '/vendor/autoload.php';
-define('BASE_PATH', dirname(dirname(__FILE__)));
+define('BASE_PATH', dirname(dirname(__FILE__)) );
 // Carica le variabili d'ambiente dal file .env
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();

@@ -1,4 +1,4 @@
-<?php require_once 'config.php'; ?>
+<?php require_once '../config.php'; ?>
 
 <?php
 // Esempio di query per ottenere tutti i clienti
@@ -6,7 +6,7 @@ $stmt = $pdo->query('SELECT * FROM clients');
 $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<?php include 'components/header.php'; ?>
+<?php include '../components/header.php'; ?>
 
 <div class="flex justify-between items-center mb-6">
     <h1 class="text-3xl font-semibold">Elenco Clienti</h1>
@@ -47,7 +47,7 @@ $clients = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 </div>
 
-<?php require_once 'components/navbar.php'; ?>
+<?php require_once '../components/navbar.php'; ?>
 
 </body>
 

@@ -1,14 +1,15 @@
 <?php require_once 'components/header.php'; ?>
 
 <div class="text-center p-4">
-    <h1 class="text-4xl font-bold mb-6">Benvenuto su MyBeautyAgenda</h1>
+    <h1 class="text-4xl font-bold mb-6">MyBeautyAgenda</h1>
+
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Card per i Clienti -->
         <div
             class="bg-gradient-to-br from-purple-500 to-indigo-600 shadow-lg rounded-lg overflow-hidden hover:shadow-xl transform hover:scale-105 transition duration-300">
             <div class="p-6">
-            <div class="absolute left-0 top-0 transform -translate-x-1/3">
+                <div class="absolute left-0 top-0 transform -translate-x-1/3">
                     <i class="fas fa-users text-9xl text-white opacity-20"></i>
                 </div>
                 <h2 class="text-xl font-semibold mb-2 text-white">Clienti</h2>
